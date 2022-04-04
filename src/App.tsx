@@ -1,15 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import { CustomRoutes } from "./CustomRoutes";
+import "./styles/global.scss";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-       teste
-      </header>
-    </div>
-  );
+  return <CustomRoutes />;
 }
 
 export default App;
